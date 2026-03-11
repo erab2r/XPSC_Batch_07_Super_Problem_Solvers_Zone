@@ -14,7 +14,6 @@ int main() {
       auto ok = [&](int mid) {
          return (mid - (mid / n)) >= k;
          };
-
       int l = 1, r = 2e9, mid, ans = 0;
       while (l <= r) {
          mid = l + (r - l) / 2;
